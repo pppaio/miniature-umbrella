@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div{
+            width: 2000px;
+            height: 2000px;
+            background-color: red;
+            animation: myDH 2s linear 2s infinite;
+        }
+
+        div:hover{
+            /* background-color: coral; */
+            animation-play-state: paused;
+        }
+
+        @keyframes myDH{
+            0%{
+                background-color: red;
+            }
+            50%{
+                background-color: green;
+            }
+            100%{
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+        <div class="box1"></div>
+</body>
+</html>
