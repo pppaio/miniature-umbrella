@@ -1,0 +1,28 @@
+{
+  "steps": [
+    {
+      "id": "open_dailies_menu",
+      "find": {
+        "name": "dailies_button",
+        "path": "dailies_button.png",
+        "threshold": 0.9
+      },
+      "click": true,
+      "wait_seconds": 1.0
+    },
+    {
+      "id": "claim_reward",
+      "find": {
+        "name": "claim_button",
+        "path": "claim_button.png",
+        "threshold": 0.9
+      },
+      "click": true,
+      "wait_seconds": 0.8
+    },
+    {
+      "id": "finish",
+      "wait_seconds": 1.0
+    }
+  ]
+}
